@@ -30,10 +30,6 @@ The methodology is split into a sequential 5-phase execution pipeline:
 * Aligns the discrete cluster categorical time series with continuous physical grid forecasts (Wind MW, Solar PV MW, Demand Forecasts) using ESIOS data.
 * Computes joint-probability intersection matrices to isolate natural market equilibriums and structural incompatibilities.
 
-### Phase 5: Distance Analysis & Market Tension (`Phase5_Distance_Analysis.py`)
-* Maps the geometric cross-side distance between supply and demand medoids.
-* Establishes a novel analytical proxy for **Market Tension**, visually quantifying tight vs. relaxed market states.
-
 ## ⚙️ Computational Environment
 To reproduce this pipeline, ensure the following dependencies are installed:
 * `pandas`, `numpy`, `scipy`, `scikit-learn`
