@@ -27,7 +27,7 @@ CURVES_DICT_PATH = Path("simplified_curves_dict.joblib")
 OUTPUT_DIR = Path("phase3_output")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-K_MIN = 3
+K_MIN = 2
 K_MAX = 8
 
 # Running inside Slurm? Automatically bypass interactive inputs if True
